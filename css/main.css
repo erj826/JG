@@ -435,7 +435,7 @@ th, td {
 }
 
 th {
-    color: #000000;
+    color: #FFFFFF;
     font-family: "montserrat-bold", sans-serif;
 }
 
@@ -454,6 +454,7 @@ th:last-child, td:last-child {
 .table-responsive {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    color: #FFFFFF;
 }
 
 
