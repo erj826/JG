@@ -1,0 +1,16 @@
+.spot-embed-container {
+    position: relative;
+    padding-bottom: 100px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+    .spot-embed-container iframe,
+    .spot-embed-container object,
+    .spot-embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+    }
