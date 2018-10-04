@@ -35,15 +35,15 @@
  *      ## home content
  *      ## home social 
  *      ## home animations
- *  # about
- *      ## about stats
+ *  # music
+ *      ## music stats
  *  # services
  *      ## services list
- *  # works
+ *  # gallery
  *      ## bricks/masonry
- *  # clients
- *      ## slider
- *      ## testimonials
+ *  # tour
+ *      ## tour
+ *      ## tour
  *  # contact
  *      ## loader animation
  *  # footer
@@ -1355,7 +1355,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
-    .s-clients {
+    .s-tour {
         padding-bottom: 7.4rem;
     }
     .section-header.has-bottom-sep::before {
@@ -2198,10 +2198,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # about
+ * # music
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.s-music {
     padding-top: 5.2rem;
     padding-bottom: 9rem;
     background-color: #000000;
@@ -2209,11 +2209,11 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.s-about .section-header.has-bottom-sep::before {
+.s-music .section-header.has-bottom-sep::before {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-.about-desc {
+.music-desc {
     font-size: 2.4rem;
     line-height: 1.75;
     text-align: center;
@@ -2222,9 +2222,9 @@ html.no-csstransitions .home-content__main {
 
 
 /* ------------------------------------------------------------------- 
- * ## about stats
+ * ## music stats
  * ------------------------------------------------------------------- */
-.about-stats {
+.music-stats {
     text-align: center;
 }
 
@@ -2261,7 +2261,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.about__line {
+.music__line {
     display: block;
     width: 2px;
     height: 10.2rem;
@@ -2274,18 +2274,18 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about
+ * music
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .about-desc {
+    .music-desc {
         font-size: 2.2rem;
         max-width: 940px;
     }
-    .about-stats {
+    .music-stats {
         padding-top: 3rem;
         padding-bottom: 3.9rem;
     }
-    .about-stats {
+    .music-stats {
         max-width: 800px;
     }
     .stats__col {
@@ -2300,7 +2300,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 800px) {
-    .about-desc {
+    .music-desc {
         font-size: 2rem;
         max-width: 600px;
     }
@@ -2313,19 +2313,19 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 700px) {
-    .about__line {
+    .music {
         right: 5.5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .s-about {
+    .s-music {
         padding-top: 12rem;
     }
-    .about-desc {
+    .music-desc {
         font-size: 1.9rem;
     }
-    .about-stats {
+    .music-stats {
         padding-top: 0;
     }
     .stats__col {
@@ -2351,13 +2351,13 @@ html.no-csstransitions .home-content__main {
     .stats__col:nth-child(n) {
         border: none;
     }
-    .about__line {
+    .music__line {
         height: 7.2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .about-desc {
+    .music-desc {
         font-size: 1.8rem;
     }
     .stats__count {
@@ -2492,22 +2492,22 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # works
+ * # gallery
  *
  * ------------------------------------------------------------------- */
-.s-works {
+.s-gallery {
     background: #000000;
     padding: 0 0 10rem 0;
     min-height: 800px;
     position: relative;
 }
 
-.s-works .intro-wrap {
+.s-gallery .intro-wrap {
     padding: 4rem 0 25.2rem;
     background: #000000;
 }
 
-.works-content {
+.gallery-content {
     max-width: 1160px;
     margin-top: -23.4rem;
 }
@@ -2700,7 +2700,7 @@ html.no-csstransitions .home-content__main {
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * works
+ * gallery
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .item-folio__title, .item-folio__cat {
@@ -2709,13 +2709,13 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-works {
+    .s-gallery {
         padding-bottom: 12rem;
     }
-    .s-works .intro-wrap {
+    .s-gallery .intro-wrap {
         padding: 12rem 0 25.2rem;
     }
-    .works-content {
+    .gallery-content {
         margin-top: -25.2rem;
     }
     .masonry__brick {
@@ -2730,10 +2730,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # clients
+ * # tour
  *
  * ------------------------------------------------------------------- */
-.s-clients {
+.s-tour {
     padding-top: 3.2rem;
     padding-bottom: 14.8rem;
     background-color: #000000;
@@ -2745,14 +2745,14 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## slider
  * ------------------------------------------------------------------- */
-.clients-outer {
+.tour-outer {
     margin-top: 3.6rem;
     padding-bottom: 9rem;
     text-align: center;
     position: relative;
 }
 
-.clients__slide {
+.tour__slide {
     display: block;
     opacity: .55;
     padding: 1.5rem 2.8rem;
@@ -2760,7 +2760,7 @@ html.no-csstransitions .home-content__main {
     transition: opacity 0.5s ease-in-out;
 }
 
-.clients__slide:hover, .clients__slide:focus {
+.tour__slide:hover, .tour__slide:focus {
     opacity: 1;
 }
 
@@ -2768,14 +2768,14 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
-.clients-testimonials {
+.tour-testimonials {
     margin-top: 4.2rem;
     padding-top: 7.2rem;
     text-align: center;
     position: relative;
 }
 
-.clients-testimonials::before {
+.tour-testimonials::before {
     content: "";
     display: block;
     height: 1px;
@@ -2790,11 +2790,11 @@ html.no-csstransitions .home-content__main {
     transform: translateX(-50%);
 }
 
-.clients-testimonials .testimonials {
+.tour-testimonials .testimonials {
     margin: 0 10%;
 }
 
-.clients-testimonials .testimonials p {
+.tour-testimonials .testimonials p {
     font-family: "lora-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
@@ -2802,33 +2802,33 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 6rem;
 }
 
-.clients-testimonials .testimonials__slide {
+.tour-testimonials .testimonials__slide {
     padding: 0 0 3rem 0;
 }
 
-.clients-testimonials .testimonials__avatar {
+.tour-testimonials .testimonials__avatar {
     height: 8.4rem;
     width: 8.4rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
 }
 
-.clients-testimonials .testimonials__name, 
-.clients-testimonials .testimonials__pos {
+.tour-testimonials .testimonials__name, 
+.tour-testimonials .testimonials__pos {
     display: block;
 }
 
-.clients-testimonials .testimonials__name {
+.tour-testimonials .testimonials__name {
     font-family: "montserrat-semibold", sans-serif;
     color: #000000;
 }
 
-.clients-testimonials .testimonials__pos {
+.tour-testimonials .testimonials__pos {
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
 }
 
-.clients-testimonials .testimonials .slick-arrow {
+.tour-testimonials .testimonials .slick-arrow {
     position: absolute;
     top: 7.2rem;
     width: 66px;
@@ -2849,17 +2849,17 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
-.clients-testimonials .testimonials .slick-prev {
+.tour-testimonials .testimonials .slick-prev {
     left: -130px;
     background-image: url("../images/left-arrow.png");
 }
 
-.clients-testimonials .testimonials .slick-next {
+.tour-testimonials .testimonials .slick-next {
     right: -130px;
     background-image: url("../images/right-arrow.png");
 }
 
-.clients-testimonials .testimonials .slick-dots {
+.tour-testimonials .testimonials .slick-dots {
     margin-top: -0.6px;
 }
 
@@ -2869,62 +2869,62 @@ html.no-csstransitions .home-content__main {
  * clients
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .clients-testimonials .testimonials {
+    .tour-testimonials .testimonials {
         margin: 0 12%;
     }
-    .clients-testimonials .testimonials p {
+    .tour-testimonials .testimonials p {
         font-size: 2.6rem;
     }
-    .clients-testimonials .testimonials .slick-prev {
+    .tour-testimonials .testimonials .slick-prev {
         left: -100px;
     }
-    .clients-testimonials .testimonials .slick-next {
+    .tour-testimonials .testimonials .slick-next {
         right: -100px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .clients-testimonials .testimonials p {
+    .tour-testimonials .testimonials p {
         font-size: 2.2rem;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .clients-testimonials::before {
+    .tour-testimonials::before {
         width: 400px;
     }
-    .clients-testimonials .testimonials {
+    .tour-testimonials .testimonials {
         margin: 0 2rem;
     }
-    .clients-testimonials .testimonials .slick-arrow {
+    .tour-testimonials .testimonials .slick-arrow {
         top: auto;
         bottom: 3rem;
     }
-    .clients-testimonials .testimonials .slick-prev {
+    .tour-testimonials .testimonials .slick-prev {
         left: 0;
     }
-    .clients-testimonials .testimonials .slick-next {
+    .tour-testimonials .testimonials .slick-next {
         right: 0;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .s-clients {
+    .s-tour {
         padding-top: 12rem;
     }
-    .clients-testimonials::before {
+    .tour-testimonials::before {
         width: 250px;
     }
-    .clients-testimonials .testimonials {
+    .tour-testimonials .testimonials {
         margin: 0;
     }
-    .clients-testimonials .testimonials p {
+    .tour-testimonials .testimonials p {
         font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .clients-testimonials .testimonials p {
+    .tour-testimonials .testimonials p {
         font-size: 1.9rem;
     }
 }
