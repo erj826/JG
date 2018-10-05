@@ -2941,8 +2941,8 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 12rem;
+    padding-bottom: 18rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2953,7 +2953,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .8;
+    opacity: .9;
     background-color: #151515;
 }
 
@@ -3008,8 +3008,8 @@ html.no-csstransitions .home-content__main {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3120,6 +3120,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary .cinfo {
+    columns: 3;
     margin-bottom: 4.8rem;
 }
 
@@ -3205,6 +3206,32 @@ html.no-csstransitions .home-content__main {
     display: block;
 }
 
+/* --------------------------------------------------------------- 
+ * ## contact info columns 
+ * --------------------------------------------------------------- */
+/* Create three equal columns that floats next to each other */
+.conCol {
+    float: left;
+    text-align: center;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+    width: 33.33%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .conCol {
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+.conRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* --------------------------------------------------------------- 
  * ## loader animation 
@@ -3278,14 +3305,14 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .contact-content {
-        max-width: 700px;
+        max-width: 800px;
     }
     .contact-primary, .contact-secondary {
         float: none;
         width: 100%;
     }
     .contact-primary #contactForm {
-        margin-top: -1.5rem;
+        margin-top: 1rem;
         margin-bottom: 7.2rem;
     }
     .contact-secondary .hide-on-fullwidth {
