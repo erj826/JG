@@ -1,4 +1,2 @@
 # JG
-Website for musician Jonny Glenn
-
-
+Official website for musician Jonny Glenn
